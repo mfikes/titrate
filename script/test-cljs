@@ -1,0 +1,3 @@
+rm -rf out
+java -cp lib/cljs.jar:src/main:src/test clojure.main script/test-cljs.clj
+node out/main.js
