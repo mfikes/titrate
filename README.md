@@ -14,7 +14,7 @@ Java and Node must be set up.
 
 ## Understanding
 
-The `src` tree has a portable codebase that spans regular JVM ClojureScript and bootstrap ClojureScript, including a portable test runner. (The code is an extension of the code in [Portable Macro Musing](http://blog.fikesfarm.com/posts/2015-06-19-portable-macro-musing.html).)
+The `src` tree has a portable codebase that spans Clojure, regular JVM ClojureScript, and bootstrap ClojureScript, including a portable test runner. (The code is an extension of the code in [Portable Macro Musing](http://blog.fikesfarm.com/posts/2015-06-19-portable-macro-musing.html).)
 
 ### Clojure
 
