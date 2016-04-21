@@ -8,7 +8,7 @@ Java and Node must be set up.
 
 ## Using
 
-1. Place a version `cljs.jar` that contains [CLJS-1626](http://dev.clojure.org/jira/browse/CLJS-1626) in the `lib` directory.
+1. Place a version of `cljs.jar` that contains [CLJS-1626](http://dev.clojure.org/jira/browse/CLJS-1626) in the `lib` directory.
 2. Run any of `script/test-clj`, `script/test-cljs`, or `script/test-bootstrap`.
 
 
