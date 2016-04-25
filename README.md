@@ -2,6 +2,8 @@
 
 This repository illustrates running tests that span Clojure, regular JVM ClojureScript, and bootstrap ClojureScript.
 
+<img src="test-tubes.jpg" width="400px" hspace="5px"/>
+
 ## Requirements
 
 Java and Node must be set up.
