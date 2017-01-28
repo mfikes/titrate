@@ -152,7 +152,8 @@
   technical issues)."
   [name macros]
   ((if macros
-     #{'cljs.pprint
+     #{'cljs.core
+       'cljs.pprint
        'cljs.env.macros
        'cljs.analyzer.macros
        'cljs.compiler.macros}
@@ -161,9 +162,11 @@
        'goog.string.StringBuffer
        'goog.array
        'cljs.core
+       'cljs.analyzer
        'cljs.env
        'cljs.pprint
-       'cljs.tools.reader}) name))
+       'cljs.tools.reader
+       'clojure.walk}) name))
 
 ;; An atom to keep track of things we've already loaded
 (def loaded (atom #{}))

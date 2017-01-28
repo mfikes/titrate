@@ -12,6 +12,7 @@
   (spit (str "out/" filename)
     (slurp (io/resource filename))))
 
+(copy-source "cljs/reader.clj")
 (copy-source "cljs/test.cljc")
 (copy-source "cljs/analyzer/api.cljc")
 (copy-source "clojure/template.clj")
