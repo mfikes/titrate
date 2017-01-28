@@ -1,4 +1,4 @@
 rm -rf out
 mkdir -p out/cljs/analyzer
-java -cp lib/cljs.jar:bootstrap-src/bootstrap-runner clojure.main script/test-bootstrap.clj
+java -cp lib/cljs.jar clojure.main script/test-bootstrap.clj
 node out/main.js
