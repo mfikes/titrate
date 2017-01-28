@@ -38,5 +38,8 @@ The same custom assert for `(is (char? nil))` is introduced, but it is loaded vi
 
 Additionally, the use of an auxiliary namespace is illustrated which causes Google Closure and other namespaces to be dumped into the `out` directory for use by the bootstrap environment. (In this case the Google Closure `Uri` class is exercised.)
 
+## License
 
+Copyright © 2016–2017 Mike Fikes and Contributors
 
+Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
